@@ -3,7 +3,7 @@ import Player from "./components/Player"
 import ChannelList from "./components/ChannelList"
 import SearchBar from "./components/SearchBar"
 import CategoryFilter from "./components/CategoryFilter"
-import { parseM3U } from "./utils/m3uParser"
+import { parseM3U } from "./utils/m3uParser.js"
 
 export default function App(){
 
