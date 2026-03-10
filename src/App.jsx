@@ -13,7 +13,7 @@ const [current,setCurrent]=useState(null)
 
 useEffect(()=>{
 
-fetch("/playlist.m3u")
+fetch("/public/playlist.m3u")
 .then(res=>res.text())
 .then(data=>{
 
